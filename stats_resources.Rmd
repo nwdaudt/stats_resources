@@ -1,0 +1,100 @@
+---
+title: "Stats key resources"
+author: "Nicholas W Daudt"
+date: "02/05/2023"
+output:
+  html_document:
+    toc: true
+    number_sections: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Univariate
+
+## ANOVA
+
+1. Gelman (2005) [Analysis of variance — why it is more important than ever](https://projecteuclid.org/journals/annals-of-statistics/volume-33/issue-1/Analysis-of-variancewhy-it-is-more-important-than-ever/10.1214/009053604000001048.full). *The Annals of Statistics* 33: 1-53.
+2. Hector *et al.* (2010) [Analysis of variance with unbalanced data: an update for ecology & evolution](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2656.2009.01634.x). *Journal of Animal Ecology* 79: 308-316.
+
+## GL(M)M
+
+1. Bolker *et al.* (2009) [Generalized linear mixed models: a practical guide for ecology and evolution](https://doi.org/10.1016/j.tree.2008.10.008). *Trends in Ecology & Evolution* 24: 127-135.
+2. O'Hara (2009) [How to make models add up — a primer on GLMMs](http://www.bioone.org/doi/abs/10.5735/086.046.0205). *Annales Zoologici Fennici* 46: 124-137.
+
+## GA(M)M
+## GL(M)M/GA(M)M
+
+1. Venalbles & Dichmont (2004) [GLMs, GAMs and GLMMs: an overview of theory for applications in fisheries research](https://doi.org/10.1016/j.fishres.2004.08.011). *Fisheries Research* 70: 319-337.
+
+## GAMLSS
+
+1. Rigby & Stasinopoulos (2005) [Generalized additive models for location, scale and shape](https://rss.onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-9876.2005.00510.x). *Journal of the Royal Statistical Society: Series C (Applied Statistics)* 54: 507-554.
+
+## Regression models for count data
+
+1. O'Hara & Kotze (2010) [Do not log-transform count data](http://doi.wiley.com/10.1111/j.2041-210X.2010.00021.x). *Methods in Ecology and Evolution* 1: 118-122.
+2. Zeiles *et al.* (2008) [Regression Models for Count Data in R](http://www.jstatsoft.org/v27/i08/). *Journal of Statistical Software* 27: 1-25.
+
+## Species distribution modelling (*latu sensu*)
+
+1. Elith & Leathwick (2009) [Species distribution models: ecological explanation and prediction across space and time](http://www.annualreviews.org/doi/10.1146/annurev.ecolsys.110308.120159). *Annual Review of Ecology, Evolution, and Systematics* 40: 677-697.
+2. Elith & Graham (2009) [Do they? How do they? WHY do they differ? On finding reasons for differing performances of species distribution models](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1600-0587.2008.05505.x). *Ecography* 32: 66-77.
+3. Elith *et al.* (2011) [A statistical explanation of MaxEnt for ecologists](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1472-4642.2010.00725.x). *Diversity and Distributions* 17: 43-57.
+
+## Boosted regression trees
+## Machine Learning
+## Quantile regression
+
+1. Cade & Noon (2003) A gentle introduction to quantile regression for ecologists. *Frontiers in Ecology and the Environment* 1: 412-420. <https://doi.org/10.1890/1540-9295(2003)001[0412:AGITQR]2.0.CO;2>
+
+## Structural Equation Modelling
+
+1. Grace & Bollen (2005) [Interpreting the Results from Multiple Regression and Structural Equation Models](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/0012-9623%282005%2986%5B283%3AITRFMR%5D2.0.CO%3B2). *The Bulletin of the Ecological Society of America* 86: 283-295.
+
+# Multivariate
+
+1. Ferrier & Guisan (2006) [Spatial modelling of biodiversity at the community level](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2664.2006.01149.x). *Journal of Applied Ecology* 43: 393-404.
+
+## Joint 'SDMs'
+
+## Model-based: Generalized Dissimilarity Model
+
+1. Ferrier *et al.* (2007) [Using generalized dissimilarity modelling to analyse and predict patterns of beta diversity in regional biodiversity assessment](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1472-4642.2007.00341.x). *Diversity and Distributions* 13: 252-264.
+
+## Model-based: Mixture-models (SAM, RCP)
+
+1. Dunstan *et al.* (2011) [Model based grouping of species across environmental gradients](https://www.sciencedirect.com/science/article/pii/S0304380010006393). *Ecological Modelling* 222: 955-963.
+
+
+## Algorithm-based: general
+
+1. Legendre & Gallagher (2001) [Ecologically meaningful transformations for ordination of species data](https://doi.org/10.1007/s004420100716). *Oecologia* 129: 271-280.
+2. Peres-Neto & Jackson (2001) [The importance of scaling of multivariate analysis in ecological studies](https://www.tandfonline.com/doi/full/10.1080/11956860.2001.11682683). *Écoscience* 8: 522-526.
+3. Ramette (2007) [Multivariate analyses in microbial ecology](https://doi.org/10.1111/j.1574-6941.2007.00375.x). *FEMS Microbiology Ecology* 62: 142-160.
+
+# Spatial data / stats
+
+1. Dale *et al.* (2002) [Conceptual and mathematical relationships among methods for spatial analysis](https://onlinelibrary.wiley.com/doi/abs/10.1034/j.1600-0587.2002.250506.x). *Ecography* 25: 558-577.
+2. Perry *et al.* (2002) [Illustrations and guidelines for selecting statistical methods for quantifying spatial pattern in ecological data](https://onlinelibrary.wiley.com/doi/abs/10.1034/j.1600-0587.2002.250507.x). *Ecography* 25: 578-600.
+
+## Spatial autocorrelation
+
+1. Sokal & Oden (1978) [Spatial autocorrelation in biology: 1. Methodology](https://academic.oup.com/biolinnean/article-lookup/doi/10.1111/j.1095-8312.1978.tb00013.x). *Biological Journal of the Linnean Society* 10: 199-228.
+2. Dormann *et al.* (2007) [Methods to account for spatial autocorrelation in the analysis of species distributional data: a review](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.2007.0906-7590.05171.x). *Ecography* 30: 609-628.
+
+# Miscellaneous
+
+## P-values
+
+1. Goodman (2008) [A dirty dozen: twelve P-value misconceptions](https://doi.org/10.1053/j.seminhematol.2008.04.003). *Seminars in Hematology* 45: 135-140.
+2. Muff *et al.* (2021) [Rewriting results sections in the language of evidence](https://doi.org/10.1016/j.tree.2021.10.009). *Trends in Ecology & Evolution* 37: 203-210.
+
+## Zeroes
+
+1. Martin *et al.* (2005) [Zero tolerance ecology: improving ecological inference by modelling the source of zero observations](https://doi.org/10.1111/j.1461-0248.2005.00826.x). *Ecology Letters* 8: 1235-1246.
+2. Warton (2005) [Many zeros does not mean zero inflation: comparing the goodness-of-fit of parametric models to multivariate abundance data](https://onlinelibrary.wiley.com/doi/abs/10.1002/env.702). *Environmetrics* 16: 275-289.
+3. Fletcher *et al.* (2005) [Modelling skewed data with many zeros: A simple approach combining ordinary and logistic regression](https://doi.org/10.1007/s10651-005-6817-1). *Environmental and Ecological Statistics* 12: 45-54.
+
