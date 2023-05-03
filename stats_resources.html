@@ -170,126 +170,168 @@ pre code {
 
 <div id="TOC">
 <ul>
-<li><a href="#univariate"><span class="toc-section-number">1</span> Univariate</a>
+<li><a href="#before-anything-else-must-reads"><span class="toc-section-number">1</span> Before anything else – must-reads</a></li>
+<li><a href="#univariate"><span class="toc-section-number">2</span> Univariate</a>
 <ul>
-<li><a href="#anova"><span class="toc-section-number">1.1</span> ANOVA</a></li>
-<li><a href="#glmm"><span class="toc-section-number">1.2</span> GL(M)M</a></li>
-<li><a href="#gamm"><span class="toc-section-number">1.3</span> GA(M)M</a></li>
-<li><a href="#glmmgamm"><span class="toc-section-number">1.4</span> GL(M)M/GA(M)M</a></li>
-<li><a href="#gamlss"><span class="toc-section-number">1.5</span> GAMLSS</a></li>
-<li><a href="#regression-models-for-count-data"><span class="toc-section-number">1.6</span> Regression models for count data</a></li>
-<li><a href="#species-distribution-modelling-latu-sensu"><span class="toc-section-number">1.7</span> Species distribution modelling (<em>latu sensu</em>)</a></li>
-<li><a href="#boosted-regression-trees"><span class="toc-section-number">1.8</span> Boosted regression trees</a></li>
-<li><a href="#machine-learning"><span class="toc-section-number">1.9</span> Machine Learning</a></li>
-<li><a href="#quantile-regression"><span class="toc-section-number">1.10</span> Quantile regression</a></li>
-<li><a href="#structural-equation-modelling"><span class="toc-section-number">1.11</span> Structural Equation Modelling</a></li>
+<li><a href="#anova"><span class="toc-section-number">2.1</span> ANOVA</a></li>
+<li><a href="#glmmgamm"><span class="toc-section-number">2.2</span> GL(M)M/GA(M)M</a></li>
+<li><a href="#gamlss"><span class="toc-section-number">2.3</span> GAMLSS</a></li>
+<li><a href="#regression-models-for-count-data"><span class="toc-section-number">2.4</span> Regression models for count data</a></li>
+<li><a href="#species-distribution-modelling-latu-sensu"><span class="toc-section-number">2.5</span> Species distribution modelling (<em>latu sensu</em>)</a></li>
+<li><a href="#boosted-regression-trees"><span class="toc-section-number">2.6</span> Boosted regression trees</a></li>
+<li><a href="#machine-learning"><span class="toc-section-number">2.7</span> Machine Learning</a></li>
+<li><a href="#quantile-regression"><span class="toc-section-number">2.8</span> Quantile regression</a></li>
+<li><a href="#structural-equation-modelling"><span class="toc-section-number">2.9</span> Structural Equation Modelling</a></li>
 </ul></li>
-<li><a href="#multivariate"><span class="toc-section-number">2</span> Multivariate</a>
+<li><a href="#multivariate"><span class="toc-section-number">3</span> Multivariate</a>
 <ul>
-<li><a href="#joint-sdms"><span class="toc-section-number">2.1</span> Joint ‘SDMs’</a></li>
-<li><a href="#model-based-generalized-dissimilarity-model"><span class="toc-section-number">2.2</span> Model-based: Generalized Dissimilarity Model</a></li>
-<li><a href="#model-based-mixture-models-sam-rcp"><span class="toc-section-number">2.3</span> Model-based: Mixture-models (SAM, RCP)</a></li>
-<li><a href="#algorithm-based-general"><span class="toc-section-number">2.4</span> Algorithm-based: general</a></li>
+<li><a href="#joint-sdms"><span class="toc-section-number">3.1</span> Joint ‘SDMs’</a></li>
+<li><a href="#model-based-whys"><span class="toc-section-number">3.2</span> Model-based: WHYs</a></li>
+<li><a href="#model-based-generalized-dissimilarity-model"><span class="toc-section-number">3.3</span> Model-based: Generalized Dissimilarity Model</a></li>
+<li><a href="#model-based-mixture-models-sam-rcp"><span class="toc-section-number">3.4</span> Model-based: Mixture-models (+ SAM, RCP)</a></li>
+<li><a href="#algorithm-based-general"><span class="toc-section-number">3.5</span> Algorithm-based: general</a></li>
 </ul></li>
-<li><a href="#spatial-data-stats"><span class="toc-section-number">3</span> Spatial data / stats</a>
+<li><a href="#spatial-data-stats"><span class="toc-section-number">4</span> Spatial data / stats</a>
 <ul>
-<li><a href="#spatial-autocorrelation"><span class="toc-section-number">3.1</span> Spatial autocorrelation</a></li>
+<li><a href="#spatial-autocorrelation"><span class="toc-section-number">4.1</span> Spatial autocorrelation</a></li>
 </ul></li>
-<li><a href="#miscellaneous"><span class="toc-section-number">4</span> Miscellaneous</a>
+<li><a href="#miscellaneous"><span class="toc-section-number">5</span> Miscellaneous</a>
 <ul>
-<li><a href="#p-values"><span class="toc-section-number">4.1</span> P-values</a></li>
-<li><a href="#zeroes"><span class="toc-section-number">4.2</span> Zeroes</a></li>
+<li><a href="#p-values"><span class="toc-section-number">5.1</span> P-values</a></li>
+<li><a href="#zeroes"><span class="toc-section-number">5.2</span> Zeroes</a></li>
 </ul></li>
 </ul>
 </div>
 
-<div id="univariate" class="section level1" number="1">
-<h1 number="1"><span class="header-section-number">1</span> Univariate</h1>
-<div id="anova" class="section level2" number="1.1">
-<h2 number="1.1"><span class="header-section-number">1.1</span> ANOVA</h2>
+<div id="before-anything-else-must-reads" class="section level1" number="1">
+<h1 number="1"><span class="header-section-number">1</span> Before anything else – must-reads</h1>
+<ul>
+<li><strong>Zuur <em>el al.</em> (2010)</strong> <a href="https://doi.org/10.1111/j.2041-210X.2009.00001.x">A protocol for data exploration to avoid common statistical problems</a>. <em>Methods in Ecology and Evolution</em> 1: 3-14.</li>
+<li><strong>Tredennick <em>et al.</em> (2021)</strong> <a href="https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecy.3336">A practical guide to selecting models for exploration, inference, and prediction in ecology</a>. <em>Ecology</em> 102: e03336.</li>
+</ul>
+</div>
+<div id="univariate" class="section level1" number="2">
+<h1 number="2"><span class="header-section-number">2</span> Univariate</h1>
+<div id="anova" class="section level2" number="2.1">
+<h2 number="2.1"><span class="header-section-number">2.1</span> ANOVA</h2>
 <ol style="list-style-type: decimal">
 <li>Gelman (2005) <a href="https://projecteuclid.org/journals/annals-of-statistics/volume-33/issue-1/Analysis-of-variancewhy-it-is-more-important-than-ever/10.1214/009053604000001048.full">Analysis of variance — why it is more important than ever</a>. <em>The Annals of Statistics</em> 33: 1-53.</li>
 <li>Hector <em>et al.</em> (2010) <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2656.2009.01634.x">Analysis of variance with unbalanced data: an update for ecology &amp; evolution</a>. <em>Journal of Animal Ecology</em> 79: 308-316.</li>
 </ol>
 </div>
-<div id="glmm" class="section level2" number="1.2">
-<h2 number="1.2"><span class="header-section-number">1.2</span> GL(M)M</h2>
-<ol style="list-style-type: decimal">
-<li>Bolker <em>et al.</em> (2009) <a href="https://doi.org/10.1016/j.tree.2008.10.008">Generalized linear mixed models: a practical guide for ecology and evolution</a>. <em>Trends in Ecology &amp; Evolution</em> 24: 127-135.</li>
-<li>O’Hara (2009) <a href="http://www.bioone.org/doi/abs/10.5735/086.046.0205">How to make models add up — a primer on GLMMs</a>. <em>Annales Zoologici Fennici</em> 46: 124-137.</li>
-</ol>
-</div>
-<div id="gamm" class="section level2" number="1.3">
-<h2 number="1.3"><span class="header-section-number">1.3</span> GA(M)M</h2>
-</div>
-<div id="glmmgamm" class="section level2" number="1.4">
-<h2 number="1.4"><span class="header-section-number">1.4</span> GL(M)M/GA(M)M</h2>
+<div id="glmmgamm" class="section level2" number="2.2">
+<h2 number="2.2"><span class="header-section-number">2.2</span> GL(M)M/GA(M)M</h2>
+<ul>
+<li>Santon <em>et al.</em> (2023) <a href="https://doi.org/10.3389/fevo.2023.1065273">A versatile workflow for linear modelling in R</a>. <em>Frontier in Ecology and Evolution</em> 11: 1065273.</li>
+<li>Warton <em>et al.</em> (2016) <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.12552">Three points to consider when choosing a LM or GLM test for count data</a>. <em>Methods in Ecology and Evolution</em> 7: 882-890.</li>
+</ul>
 <ol style="list-style-type: decimal">
 <li>Venalbles &amp; Dichmont (2004) <a href="https://doi.org/10.1016/j.fishres.2004.08.011">GLMs, GAMs and GLMMs: an overview of theory for applications in fisheries research</a>. <em>Fisheries Research</em> 70: 319-337.</li>
+<li>Bolker <em>et al.</em> (2009) <a href="https://doi.org/10.1016/j.tree.2008.10.008">Generalized linear mixed models: a practical guide for ecology and evolution</a>. <em>Trends in Ecology &amp; Evolution</em> 24: 127-135.</li>
+<li>O’Hara (2009) <a href="http://www.bioone.org/doi/abs/10.5735/086.046.0205">How to make models add up — a primer on GLMMs</a>. <em>Annales Zoologici Fennici</em> 46: 124-137.</li>
+<li>Schielzeth &amp; Nakagawa (2013) <a href="http://doi.wiley.com/10.1111/j.2041-210x.2012.00251.x">Nested by design: model fitting and interpretation in a mixed model era</a>. <em>Methods in Ecology and Evolution</em> 4: 14-24.</li>
+<li>Harrison <em>et al.</em> (2018) <a href="https://peerj.com/articles/4794">A brief introduction to mixed effects modelling and multi-model inference in ecology</a>. <em>PeerJ</em> 6: e4794.</li>
+<li>Pedersen <em>et al.</em> (2019) <a href="https://peerj.com/articles/6876">Hierarchical generalized additive models in ecology: an introduction with mgcv</a>. <em>PeerJ</em> 7: e6876.</li>
 </ol>
 </div>
-<div id="gamlss" class="section level2" number="1.5">
-<h2 number="1.5"><span class="header-section-number">1.5</span> GAMLSS</h2>
+<div id="gamlss" class="section level2" number="2.3">
+<h2 number="2.3"><span class="header-section-number">2.3</span> GAMLSS</h2>
 <ol style="list-style-type: decimal">
 <li>Rigby &amp; Stasinopoulos (2005) <a href="https://rss.onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-9876.2005.00510.x">Generalized additive models for location, scale and shape</a>. <em>Journal of the Royal Statistical Society: Series C (Applied Statistics)</em> 54: 507-554.</li>
 </ol>
 </div>
-<div id="regression-models-for-count-data" class="section level2" number="1.6">
-<h2 number="1.6"><span class="header-section-number">1.6</span> Regression models for count data</h2>
-<ol style="list-style-type: decimal">
+<div id="regression-models-for-count-data" class="section level2" number="2.4">
+<h2 number="2.4"><span class="header-section-number">2.4</span> Regression models for count data</h2>
+<ul>
 <li>O’Hara &amp; Kotze (2010) <a href="http://doi.wiley.com/10.1111/j.2041-210X.2010.00021.x">Do not log-transform count data</a>. <em>Methods in Ecology and Evolution</em> 1: 118-122.</li>
+</ul>
+<ol style="list-style-type: decimal">
 <li>Zeiles <em>et al.</em> (2008) <a href="http://www.jstatsoft.org/v27/i08/">Regression Models for Count Data in R</a>. <em>Journal of Statistical Software</em> 27: 1-25.</li>
 </ol>
 </div>
-<div id="species-distribution-modelling-latu-sensu" class="section level2" number="1.7">
-<h2 number="1.7"><span class="header-section-number">1.7</span> Species distribution modelling (<em>latu sensu</em>)</h2>
+<div id="species-distribution-modelling-latu-sensu" class="section level2" number="2.5">
+<h2 number="2.5"><span class="header-section-number">2.5</span> Species distribution modelling (<em>latu sensu</em>)</h2>
 <ol style="list-style-type: decimal">
 <li>Elith &amp; Leathwick (2009) <a href="http://www.annualreviews.org/doi/10.1146/annurev.ecolsys.110308.120159">Species distribution models: ecological explanation and prediction across space and time</a>. <em>Annual Review of Ecology, Evolution, and Systematics</em> 40: 677-697.</li>
-<li>Elith &amp; Graham (2009) <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1600-0587.2008.05505.x">Do they? How do they? WHY do they differ? On finding reasons for differing performances of species distribution models</a>. <em>Ecography</em> 32: 66-77.</li>
 <li>Elith <em>et al.</em> (2011) <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1472-4642.2010.00725.x">A statistical explanation of MaxEnt for ecologists</a>. <em>Diversity and Distributions</em> 17: 43-57.</li>
+<li>Elith &amp; Graham (2009) <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1600-0587.2008.05505.x">Do they? How do they? WHY do they differ? On finding reasons for differing performances of species distribution models</a>. <em>Ecography</em> 32: 66-77.</li>
 </ol>
 </div>
-<div id="boosted-regression-trees" class="section level2" number="1.8">
-<h2 number="1.8"><span class="header-section-number">1.8</span> Boosted regression trees</h2>
+<div id="boosted-regression-trees" class="section level2" number="2.6">
+<h2 number="2.6"><span class="header-section-number">2.6</span> Boosted regression trees</h2>
+<ol style="list-style-type: decimal">
+<li>Elith <em>et al.</em> (2008) <a href="https://doi.org/10.1111/j.1365-2656.2008.01390.x">A working guide to boosted regression trees</a>. <em>Journal of Animal Ecology</em> 77: 802-813.</li>
+</ol>
 </div>
-<div id="machine-learning" class="section level2" number="1.9">
-<h2 number="1.9"><span class="header-section-number">1.9</span> Machine Learning</h2>
+<div id="machine-learning" class="section level2" number="2.7">
+<h2 number="2.7"><span class="header-section-number">2.7</span> Machine Learning</h2>
+<ul>
+<li>Pichler &amp; Hartig (2023) <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.14061">Machine learning and deep learning—A review for ecologists</a>. <em>Methods in Ecology and Evolution</em> 14: 994-1016.</li>
+</ul>
 </div>
-<div id="quantile-regression" class="section level2" number="1.10">
-<h2 number="1.10"><span class="header-section-number">1.10</span> Quantile regression</h2>
+<div id="quantile-regression" class="section level2" number="2.8">
+<h2 number="2.8"><span class="header-section-number">2.8</span> Quantile regression</h2>
 <ol style="list-style-type: decimal">
 <li>Cade &amp; Noon (2003) A gentle introduction to quantile regression for ecologists. <em>Frontiers in Ecology and the Environment</em> 1: 412-420. <a href="https://doi.org/10.1890/1540-9295(2003)001%5B0412:AGITQR%5D2.0.CO;2" class="uri">https://doi.org/10.1890/1540-9295(2003)001[0412:AGITQR]2.0.CO;2</a></li>
 </ol>
 </div>
-<div id="structural-equation-modelling" class="section level2" number="1.11">
-<h2 number="1.11"><span class="header-section-number">1.11</span> Structural Equation Modelling</h2>
+<div id="structural-equation-modelling" class="section level2" number="2.9">
+<h2 number="2.9"><span class="header-section-number">2.9</span> Structural Equation Modelling</h2>
 <ol style="list-style-type: decimal">
-<li>Grace &amp; Bollen (2005) <a href="https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/0012-9623%282005%2986%5B283%3AITRFMR%5D2.0.CO%3B2">Interpreting the Results from Multiple Regression and Structural Equation Models</a>. <em>The Bulletin of the Ecological Society of America</em> 86: 283-295.</li>
+<li>Grace &amp; Bollen (2005) <a href="https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/0012-9623%282005%2986%5B283%3AITRFMR%5D2.0.CO%3B2">Interpreting the results from Multiple Regression and Structural Equation Models</a>. <em>The Bulletin of the Ecological Society of America</em> 86: 283-295.</li>
+<li>Grace <em>et al.</em> (2012) <a href="https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/ES12-00048.1">Guidelines for a graph-theoretic implementation of structural equation modeling</a>. <em>Ecosphere</em> 3: 1-44.</li>
+<li>Fan <em>et al.</em> (2016) <a href="https://doi.org/10.1186/s13717-016-0063-3">Applications of structural equation modeling (SEM) in ecological studies: an updated review</a>. <em>Ecological Processes</em> 5: 19.</li>
 </ol>
 </div>
 </div>
-<div id="multivariate" class="section level1" number="2">
-<h1 number="2"><span class="header-section-number">2</span> Multivariate</h1>
-<ol style="list-style-type: decimal">
+<div id="multivariate" class="section level1" number="3">
+<h1 number="3"><span class="header-section-number">3</span> Multivariate</h1>
+<ul>
 <li>Ferrier &amp; Guisan (2006) <a href="https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2664.2006.01149.x">Spatial modelling of biodiversity at the community level</a>. <em>Journal of Applied Ecology</em> 43: 393-404.</li>
-</ol>
-<div id="joint-sdms" class="section level2" number="2.1">
-<h2 number="2.1"><span class="header-section-number">2.1</span> Joint ‘SDMs’</h2>
+</ul>
+<div id="joint-sdms" class="section level2" number="3.1">
+<h2 number="3.1"><span class="header-section-number">3.1</span> Joint ‘SDMs’</h2>
 </div>
-<div id="model-based-generalized-dissimilarity-model" class="section level2" number="2.2">
-<h2 number="2.2"><span class="header-section-number">2.2</span> Model-based: Generalized Dissimilarity Model</h2>
+<div id="model-based-whys" class="section level2" number="3.2">
+<h2 number="3.2"><span class="header-section-number">3.2</span> Model-based: WHYs</h2>
+<p><strong>Ecology</strong></p>
+<ul>
+<li>Ovaskainen &amp; Soininen (2011) <a href="https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/10-1251.1">Making more out of sparse data: hierarchical modeling of species communities</a>. <em>Ecology</em> 92: 289-295.</li>
+<li>Warton <em>et al.</em> (2015) <a href="https://doi.org/10.1016/j.tree.2015.09.007">So many variables: joint modeling in community ecology</a>. <em>Trends in Ecology &amp; Evolution</em> 30: 766-779.</li>
+<li>Warton <em>et al.</em> (2015) <a href="https://doi.org/10.1007/s11258-014-0366-3">Model-based thinking for community ecology</a>. <em>Plant Ecology</em> 216: 669-682.</li>
+<li>Ovaskainen <em>et al.</em> (2017) <a href>How to make more out of community data? A conceptual framework and its implementation as models and software</a>. <em>Ecology Letters</em> 20: 561-576.</li>
+</ul>
+<p><strong>Statistics</strong></p>
+<ul>
+<li>Warton <em>et al.</em> (2012) <a href="http://doi.wiley.com/10.1111/j.2041-210X.2011.00127.x">Distance-based multivariate analyses confound location and dispersion effects</a>. <em>Methods in Ecology and Evolution</em> 3: 89-101.</li>
+<li>Warton &amp; Hui (2017) <a href="https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.12843">The central role of mean-variance relationships in the analysis of multivariate abundance data: a response to Roberts (2017)</a>. <em>Methods in Ecology and Evolution</em> 8: 1408-1414.</li>
+</ul>
+</div>
+<div id="model-based-generalized-dissimilarity-model" class="section level2" number="3.3">
+<h2 number="3.3"><span class="header-section-number">3.3</span> Model-based: Generalized Dissimilarity Model</h2>
 <ol style="list-style-type: decimal">
 <li>Ferrier <em>et al.</em> (2007) <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1472-4642.2007.00341.x">Using generalized dissimilarity modelling to analyse and predict patterns of beta diversity in regional biodiversity assessment</a>. <em>Diversity and Distributions</em> 13: 252-264.</li>
+<li>Latombe <em>et al.</em> (2017) <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.12756">Multi-site generalised dissimilarity modelling: using zeta diversity to differentiate drivers of turnover in rare and widespread species</a>. <em>Methods in Ecology and Evolution</em> 8: 431-442.</li>
 </ol>
 </div>
-<div id="model-based-mixture-models-sam-rcp" class="section level2" number="2.3">
-<h2 number="2.3"><span class="header-section-number">2.3</span> Model-based: Mixture-models (SAM, RCP)</h2>
+<div id="model-based-mixture-models-sam-rcp" class="section level2" number="3.4">
+<h2 number="3.4"><span class="header-section-number">3.4</span> Model-based: Mixture-models (+ SAM, RCP)</h2>
+<ul>
+<li>Hui <em>et al.</em> (2013) <a href="https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/12-1322.1">To mix or not to mix: comparing the predictive performance of mixture models vs. separate species distribution models</a>. <em>Ecology</em> 94: 1913-1919.</li>
+<li>Dunstan <em>et al.</em> (2013) <a href="https://doi.org/10.1007/s13253-013-0146-x">Finite mixture of regression modeling for high-dimensional count and biomass data in ecology</a>. <em>Journal of Agricultural, Biological, and Environmental Statistics</em> 18: 357-375.</li>
+</ul>
+<p><strong>SAM:</strong></p>
 <ol style="list-style-type: decimal">
 <li>Dunstan <em>et al.</em> (2011) <a href="https://www.sciencedirect.com/science/article/pii/S0304380010006393">Model based grouping of species across environmental gradients</a>. <em>Ecological Modelling</em> 222: 955-963.</li>
 </ol>
+<p><strong>RCP:</strong></p>
+<ol style="list-style-type: decimal">
+<li>Foster <em>et al.</em> (2013) <a href="https://onlinelibrary.wiley.com/doi/10.1002/env.2245">Modelling biological regions from multi-species and environmental data</a>. <em>Environmetrics</em> 24: 489-499.</li>
+<li>Foster <em>et al.</em> (2017) <a href="https://rss.onlinelibrary.wiley.com/doi/abs/10.1111/rssc.12211">Ecological grouping of survey sites when sampling artefacts are present</a>. <em>Journal of the Royal Statistical Society: Series C (Applied Statistics)</em> 66: 1031-1047.</li>
+</ol>
 </div>
-<div id="algorithm-based-general" class="section level2" number="2.4">
-<h2 number="2.4"><span class="header-section-number">2.4</span> Algorithm-based: general</h2>
+<div id="algorithm-based-general" class="section level2" number="3.5">
+<h2 number="3.5"><span class="header-section-number">3.5</span> Algorithm-based: general</h2>
 <ol style="list-style-type: decimal">
 <li>Legendre &amp; Gallagher (2001) <a href="https://doi.org/10.1007/s004420100716">Ecologically meaningful transformations for ordination of species data</a>. <em>Oecologia</em> 129: 271-280.</li>
 <li>Peres-Neto &amp; Jackson (2001) <a href="https://www.tandfonline.com/doi/full/10.1080/11956860.2001.11682683">The importance of scaling of multivariate analysis in ecological studies</a>. <em>Écoscience</em> 8: 522-526.</li>
@@ -297,31 +339,31 @@ pre code {
 </ol>
 </div>
 </div>
-<div id="spatial-data-stats" class="section level1" number="3">
-<h1 number="3"><span class="header-section-number">3</span> Spatial data / stats</h1>
+<div id="spatial-data-stats" class="section level1" number="4">
+<h1 number="4"><span class="header-section-number">4</span> Spatial data / stats</h1>
 <ol style="list-style-type: decimal">
 <li>Dale <em>et al.</em> (2002) <a href="https://onlinelibrary.wiley.com/doi/abs/10.1034/j.1600-0587.2002.250506.x">Conceptual and mathematical relationships among methods for spatial analysis</a>. <em>Ecography</em> 25: 558-577.</li>
 <li>Perry <em>et al.</em> (2002) <a href="https://onlinelibrary.wiley.com/doi/abs/10.1034/j.1600-0587.2002.250507.x">Illustrations and guidelines for selecting statistical methods for quantifying spatial pattern in ecological data</a>. <em>Ecography</em> 25: 578-600.</li>
 </ol>
-<div id="spatial-autocorrelation" class="section level2" number="3.1">
-<h2 number="3.1"><span class="header-section-number">3.1</span> Spatial autocorrelation</h2>
+<div id="spatial-autocorrelation" class="section level2" number="4.1">
+<h2 number="4.1"><span class="header-section-number">4.1</span> Spatial autocorrelation</h2>
 <ol style="list-style-type: decimal">
 <li>Sokal &amp; Oden (1978) <a href="https://academic.oup.com/biolinnean/article-lookup/doi/10.1111/j.1095-8312.1978.tb00013.x">Spatial autocorrelation in biology: 1. Methodology</a>. <em>Biological Journal of the Linnean Society</em> 10: 199-228.</li>
-<li>Dormann <em>et al.</em> (2007) <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.2007.0906-7590.05171.x">Methods to account for spatial autocorrelation in the analysis of species distributional data: a review</a>. <em>Ecography</em> 30: 609-628.</li>
+<li><strong>Dormann <em>et al.</em> (2007)</strong> <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.2007.0906-7590.05171.x">Methods to account for spatial autocorrelation in the analysis of species distributional data: a review</a>. <em>Ecography</em> 30: 609-628.</li>
 </ol>
 </div>
 </div>
-<div id="miscellaneous" class="section level1" number="4">
-<h1 number="4"><span class="header-section-number">4</span> Miscellaneous</h1>
-<div id="p-values" class="section level2" number="4.1">
-<h2 number="4.1"><span class="header-section-number">4.1</span> P-values</h2>
+<div id="miscellaneous" class="section level1" number="5">
+<h1 number="5"><span class="header-section-number">5</span> Miscellaneous</h1>
+<div id="p-values" class="section level2" number="5.1">
+<h2 number="5.1"><span class="header-section-number">5.1</span> P-values</h2>
 <ol style="list-style-type: decimal">
 <li>Goodman (2008) <a href="https://doi.org/10.1053/j.seminhematol.2008.04.003">A dirty dozen: twelve P-value misconceptions</a>. <em>Seminars in Hematology</em> 45: 135-140.</li>
 <li>Muff <em>et al.</em> (2021) <a href="https://doi.org/10.1016/j.tree.2021.10.009">Rewriting results sections in the language of evidence</a>. <em>Trends in Ecology &amp; Evolution</em> 37: 203-210.</li>
 </ol>
 </div>
-<div id="zeroes" class="section level2" number="4.2">
-<h2 number="4.2"><span class="header-section-number">4.2</span> Zeroes</h2>
+<div id="zeroes" class="section level2" number="5.2">
+<h2 number="5.2"><span class="header-section-number">5.2</span> Zeroes</h2>
 <ol style="list-style-type: decimal">
 <li>Martin <em>et al.</em> (2005) <a href="https://doi.org/10.1111/j.1461-0248.2005.00826.x">Zero tolerance ecology: improving ecological inference by modelling the source of zero observations</a>. <em>Ecology Letters</em> 8: 1235-1246.</li>
 <li>Warton (2005) <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/env.702">Many zeros does not mean zero inflation: comparing the goodness-of-fit of parametric models to multivariate abundance data</a>. <em>Environmetrics</em> 16: 275-289.</li>
