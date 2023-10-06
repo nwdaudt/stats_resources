@@ -28,7 +28,6 @@ knitr::opts_chunk$set(echo = TRUE)
 ## GL(M)M/GA(M)M
 
 * Santon *et al.* (2023) [A versatile workflow for linear modelling in R](https://doi.org/10.3389/fevo.2023.1065273). *Frontier in Ecology and Evolution* 11: 1065273.
-* Warton *et al.* (2016) [Three points to consider when choosing a LM or GLM test for count data](https://onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.12552). *Methods in Ecology and Evolution* 7: 882-890.
 * Duncan & Kefford (2021) [Interactions in statistical models: Three things to know](https://onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13714). *Methods in Ecology and Evolution* 12: 2287-2297.
 
 1. Venalbles & Dichmont (2004) [GLMs, GAMs and GLMMs: an overview of theory for applications in fisheries research](https://doi.org/10.1016/j.fishres.2004.08.011). *Fisheries Research* 70: 319-337.
@@ -45,10 +44,13 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Regression models for count data
 
 * O'Hara & Kotze (2010) [Do not log-transform count data](http://doi.wiley.com/10.1111/j.2041-210X.2010.00021.x). *Methods in Ecology and Evolution* 1: 118-122.
+* Warton *et al.* (2016) [Three points to consider when choosing a LM or GLM test for count data](https://onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.12552). *Methods in Ecology and Evolution* 7: 882-890.
 
 1. Zeiles *et al.* (2008) [Regression Models for Count Data in R](http://www.jstatsoft.org/v27/i08/). *Journal of Statistical Software* 27: 1-25.
 
-## Species distribution modelling (*latu sensu*)
+## Species distribution modelling (*lato sensu*)
+
+<!-- https://onlinelibrary.wiley.com/toc/13652699/2012/39/12 -->
 
 * Soberón & Nakamura (2009) [Niches and distributional areas: concepts, methods, and assumptions](https://pnas.org/doi/full/10.1073/pnas.0901637106). *Proceedings of the National Academy of Sciences* 106: 19644-19650.
 * Peterson & Soberón (2012) [Species istribution Modeling and Ecological Niche Modeling: getting the concepts right](http://dx.doi.org/10.4322/natcon.2012.019). *Natureza & Conservação* 10: 102-107.
@@ -59,26 +61,26 @@ knitr::opts_chunk$set(echo = TRUE)
 3. Warton & Shepherd (2010) [Poisson point process models solve the "pseudo-absence problem" for presence-only data in ecology](https://www.jstor.org/stable/29765559). *The Annals of Applied Statistics* 4: 1383-1402.
 4. Renner & Warton (2013) [Equivalence of MAXENT and Poisson Point Process models for species distribution modeling in ecology](https://doi.org/10.1111/j.1541-0420.2012.01824.x). *Biometrics* 69: 274-281.
 
-## Boosted regression trees
-
-1. Elith *et al.* (2008) [A working guide to boosted regression trees](https://doi.org/10.1111/j.1365-2656.2008.01390.x). *Journal of Animal Ecology* 77: 802-813.
-2. Mayr & Hofner (2018) [Boosting for statistical modelling - A non-technical introduction](http://journals.sagepub.com/doi/10.1177/1471082X17748086). *Statistical Modelling* 18: 365-384.
-
 ## Machine Learning
 
 * Christin *et al.* (2019) [Applications for deep learning in ecology](https://onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13256). *Methods in Ecology and Evolution* 10: 1632-1644.
 * Borowiec *et al.* (2022) [Deep learning as a tool for ecology and evolution](https://onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13901). *Methods in Ecology and Evolution* 13: 1640-1660.
 * Pichler & Hartig (2023) [Machine learning and deep learning—A review for ecologists](https://onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.14061). *Methods in Ecology and Evolution* 14: 994-1016.
 
+### Random forest
+
+1. Cutler *et al.* (2007) [Random forests for classification in ecology](https://doi.org/10.1890/07-0539.1). *Ecology* 88: 2783-2792.
+2. Strobl *et al.* (2007) [Bias in random forest variable importance measures: Illustrations, sources and a solution](https://doi.org/10.1186/1471-2105-8-25). *BMC Bioinformatics* 8: 25. 
+3. Genuer *et al.* (2010) [Variable selection using random forests](https://doi.org/10.1016/j.patrec.2010.03.014). *Pattern Recognition Letters* 31: 2225-2236.
+
+### Boosted regression trees
+
+1. Elith *et al.* (2008) [A working guide to boosted regression trees](https://doi.org/10.1111/j.1365-2656.2008.01390.x). *Journal of Animal Ecology* 77: 802-813.
+2. Mayr & Hofner (2018) [Boosting for statistical modelling - A non-technical introduction](http://journals.sagepub.com/doi/10.1177/1471082X17748086). *Statistical Modelling* 18: 365-384.
+
 ## Quantile regression
 
 1. Cade & Noon (2003) A gentle introduction to quantile regression for ecologists. *Frontiers in Ecology and the Environment* 1: 412-420. <https://doi.org/10.1890/1540-9295(2003)001[0412:AGITQR]2.0.CO;2>
-
-## Structural Equation Modelling
-
-1. Grace & Bollen (2005) [Interpreting the results from Multiple Regression and Structural Equation Models](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/0012-9623%282005%2986%5B283%3AITRFMR%5D2.0.CO%3B2). *The Bulletin of the Ecological Society of America* 86: 283-295.
-2. Grace *et al.* (2012) [Guidelines for a graph-theoretic implementation of structural equation modeling](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/ES12-00048.1). *Ecosphere* 3: 1-44.
-2. Fan *et al.* (2016) [Applications of structural equation modeling (SEM) in ecological studies: an updated review](https://doi.org/10.1186/s13717-016-0063-3). *Ecological Processes* 5: 19.
 
 ## Casual inference
 
@@ -89,6 +91,19 @@ knitr::opts_chunk$set(echo = TRUE)
 2. Arif & MacNeil (2022) [Utilizing causal diagrams across quasi-experimental approaches](https://onlinelibrary.wiley.com/doi/abs/10.1002/ecs2.4009). *Ecosphere* 13: e4009.
 3. Gao *et al.* (2022) [Causal inference in spatial statistics](https://doi.org/10.1016/j.spasta.2022.100621). *Spatial Statistics* 50: 100621.
 4. Arif & MacNeil (2023) [Applying the structural causal model framework for observational causal inference in ecology](https://doi.org/10.1002/ecm.1554). *Ecological Monographs* 93: e1554.
+
+### Structural Equation Modelling
+
+1. Grace & Bollen (2005) [Interpreting the results from Multiple Regression and Structural Equation Models](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/0012-9623%282005%2986%5B283%3AITRFMR%5D2.0.CO%3B2). *The Bulletin of the Ecological Society of America* 86: 283-295.
+2. Grace *et al.* (2010) [On the specification of structural equation models for ecological systems](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/09-0464.1). *Ecological Monographs* 80: 67-87.
+3. Grace *et al.* (2012) [Guidelines for a graph-theoretic implementation of structural equation modeling](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/ES12-00048.1). *Ecosphere* 3: 1-44.
+4. Fan *et al.* (2016) [Applications of structural equation modeling (SEM) in ecological studies: an updated review](https://doi.org/10.1186/s13717-016-0063-3). *Ecological Processes* 5: 19.
+
+# Occupancy models
+
+* Devarajan *et al.* (2020) [Multi-species occupancy models: review, roadmap, and recommendations](https://doi.org/10.1111/ecog.04957). *Ecography* 43: 1612-1624.
+
+Doser *et al.* (2022) [spOccupancy: An R package for single-species, multi-species, and integrated spatial occupancy models](https://doi.org/10.1111/2041-210X.13897). *Methods in Ecology and Evolution* 13: 1670-1678.
 
 # Multivariate
 
@@ -169,6 +184,11 @@ knitr::opts_chunk$set(echo = TRUE)
 * Hooten & Hobbs (2015) [A guide to Bayesian model selection for ecologists](http://doi.wiley.com/10.1890/14-0661.1). *Ecological Monographs* 85: 3-28.
 
 # Miscellaneous
+
+## General resources
+
+1. [BMJ - Statistics Notes in the British Medical Journal](https://www-users.york.ac.uk/~mb55/pubs/pbstnote.htm)
+2. [Nature - "Statistics for Biologists": Points of Significance](https://www.nature.com/collections/qghhqm/pointsofsignificance)
 
 ## P-values
 
